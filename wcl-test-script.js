@@ -2,7 +2,7 @@ const swiper = new Swiper('.swiper.wcl-test', {
   // Optional parameters
   direction: 'vertical',
   loop: true,
-  effect: cards,
+  effect: "cards",
 
   // If we need pagination
   pagination: {
