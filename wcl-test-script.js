@@ -1,8 +1,8 @@
 const swiper = new Swiper('.swiper.wcl-test', {
   // Optional parameters
-  direction: 'vertical',
   loop: true,
   effect: "cards",
+  grabCursor: true,
 
   // If we need pagination
   pagination: {
@@ -21,5 +21,4 @@ const swiper = new Swiper('.swiper.wcl-test', {
   },
 });
 
-alert("txt");
 console.log("txt");
