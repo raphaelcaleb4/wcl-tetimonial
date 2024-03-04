@@ -3,6 +3,7 @@ const swiper = new Swiper('.swiper.wcl-test', {
   loop: true,
   effect: "cards",
   grabCursor: true,
+  slidesPerView: 4,
 
   // If we need pagination
   pagination: {
@@ -15,10 +16,6 @@ const swiper = new Swiper('.swiper.wcl-test', {
     prevEl: '.swiper-button-prev',
   },
 
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
 });
 
 console.log("txt");
